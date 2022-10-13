@@ -21,7 +21,7 @@ namespace ProjF1Entity
 
             var equipes = context.Equipes.ToList();
             foreach (var item in equipes)
-                Console.WriteLine(item.ToString());
+                Console.WriteLine(item.ToString()); 
 
             Console.WriteLine("\n\nProcesso Finalizado! Pressione [Enter] para continuar...");
             Console.ReadKey();
