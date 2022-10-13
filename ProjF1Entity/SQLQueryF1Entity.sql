@@ -35,7 +35,7 @@ create table PilotoCarro (
     constraint FK_PilotoCarro_Piloto foreign key (id_piloto) references Piloto (id),
     constraint FK_PilotoCarro_Carro foreign key (id_carro) references Carro(id)
 )
-delete Equipe
+
 select * from Equipe;
 select * from Piloto;
 select * from Carro;
